@@ -1,7 +1,5 @@
 package com.kh.test.person.model.vo;
 
-import com.kh.practice.student.model.vo.String;
-
 public class Person {
 
 	private String name;

@@ -23,6 +23,10 @@ public class Practice2 {
 		total = ko+ma+en;
 		avg = total/3.0;
 		
+		if(en.equals(30)) {
+			
+		}
+		
 		if (ko <= 40 && ma <= 40 && en <= 40 ) {
 		} if (avg <= 60.1) {
 			System.out.println("불합격 입니다.");
