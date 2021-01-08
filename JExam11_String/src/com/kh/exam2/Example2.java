@@ -54,6 +54,10 @@ public class Example2 {
 			System.out.println("st.nextToken()->" + st.nextToken());
 		}
 		
+		st = new StringTokenizer("2021-01-07");
+		while(st.hasMoreTokens()) {
+			System.out.println("st.nextToken() ->" + st.nextToken("-"));
+		}
 
 	}
 
